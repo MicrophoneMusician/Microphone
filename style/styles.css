@@ -1,0 +1,337 @@
+@import 'https://fonts.googleapis.com/css?family=Share+Tech+Mono';
+
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1400px;
+  background-color: #4c4c4c;
+  width: 100%;
+  margin: auto;
+}
+.container{
+width: 100%;
+height: 630px;
+background-color: currentcolor;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.wrap_nav{
+width: 100%;
+background-color:#b8e1f254;
+box-sizing: border-box;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 15px;
+height: 40px;
+}
+.nav_links {
+  width: 70%;
+  background-color: rgba(184, 225, 242, 0.33);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  font-size: 17px;
+}
+.nav_buttons {
+  width: 30%;
+  background-color: rgba(184, 225, 242, 0.33);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 40px;
+}
+
+.fas{
+color: #B8E1F2; 
+}
+
+.fas:hover{
+color: #30383B;
+transform: scale(1.2);
+transition: ease-in-out 0.2s ;
+}
+
+a{
+color: #B8E1F2;
+font-size: 23px;
+text-decoration: none;
+font-family: 'Special Elite', cursive;
+}
+
+a:hover{
+color: #30383B;
+transform: scale(1.2);
+transition: ease-in-out 0.2s ;
+}
+.btn{
+  background-color: rgba(48, 56, 59, 0.48);
+  width: 100px;
+  height: 40px;
+  font-family: "Special Elite", cursive;
+  font-size: 17px;
+  color: rgb(184, 225, 242);
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(184, 225, 242);
+  border-image: initial;
+  margin: 5px 15px 5px 5px;
+
+}
+
+.btn:hover{
+cursor: pointer;
+transition: ease-in-out 0.3s;
+color: #4c4c4c;
+background-color:#b8e1f254;
+border: 1px solid #4c4c4c;
+}
+
+.icons{
+width: 100%;
+box-sizing: border-box;
+height: 40px;
+display: flex;
+justify-content:center;
+align-items: center;
+background-color: #b8e1f21a;
+}
+.mic_nav {
+  color: rgb(184, 225, 242);
+  margin-left: 15px;
+}
+
+.fab{
+margin: 15px;
+color: #B8E1F2;
+}
+
+.fab:hover{
+color: #30383B;
+transform: scale(1.2);
+transition: ease-in-out 0.2s ;
+}
+
+  /* Position the image container (needed to position the left and right arrows) */
+  .slide__container {
+    box-shadow: 6px 6px 6px rgb(0, 0, 0), 1em 0 .4em rgba(30, 184, 223, 0.212), -1em 0 .4em rgba(30, 184, 223, 0.212);
+    background-color: currentcolor;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 10%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.7;
+    filter: blur(4px);
+    transition-timing-function: ease-in-out;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+
+  .demo-grid {
+    opacity: 0.7;
+    filter: blur(2px);
+    transition-timing-function: ease-in-out;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+    filter: blur(0px);
+    transition: 1s;
+    transition-delay: 0.25s;
+    transform: scale(1.25);
+    border-radius: 5px;
+  }
+
+  .active,
+  .demo-grid:hover {
+    opacity: 1;
+    filter: blur(0px);
+    transition: ease-in-out;
+    transition: 1s;
+    transition-delay: 0.25s;
+  }
+
+.caption-container {
+  padding: 16px;
+  font-size: xx-large;
+  letter-spacing: 2px;
+}
+
+.grid-container {
+  background-color: currentColor;
+  box-shadow: 12px 12px 12px rgb(0, 0, 0), 1em 0 .4em rgba(104, 55, 161, 0.212), -1em 0 .4em rgba(104, 55, 161, 0.212);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 1vw;
+  margin-top: 1vw;
+}
+
+.grid-container > div {
+  height: 210px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.white {
+  color: white;
+
+}
+
+.grid-container > div:nth-of-type(1) {
+  grid-column: 1 / 3;
+}
+.grid-container > div:nth-of-type(6) {
+  grid-column: 3 / 5;
+}
+.grid-container > div:nth-of-type(7) {
+  grid-column: 1 / 3;
+}
+.grid-container > div:nth-of-type(11) {
+  grid-column: 2 / 4;
+}
+
+.divider {
+  font-family: "Share Tech Mono", monospace;
+  color: #fff;
+  font-size: 2.5vh;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, .45);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    display: block;
+    height: 0.09em;
+    min-width: 30vw;
+  }
+  
+  .divider::before {
+    background: linear-gradient(to right, rgba(240,240,240,0), #fff);
+    margin-right: 4vh;
+  }
+  
+  .divider::after {
+    background: linear-gradient(to left, rgba(240,240,240,0), #fff);
+    margin-left: 4vh;
+  } 
+
+.wrap_footer{
+background-color: currentColor;
+width: 100%;
+display: flex;
+align-items: flex-end;
+}
+
+.footer{
+width: 100%;
+background-color:#b8e1f254;
+height: 40px;
+display: flex;
+align-items: center;
+box-sizing: border-box;
+
+}
+
+.content_footer{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+}
+
+.wrap_copyright{
+width: 75%;
+font-size: 13px;
+color: #B8E1F2;
+margin-left: 15px;
+font-family: 'Special Elite', cursive; 
+}
