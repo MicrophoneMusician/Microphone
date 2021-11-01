@@ -12,16 +12,34 @@ background-repeat: no-repeat;
 background-image: url(/img/music.jpg); 
 background-size: cover;
 }
+.wrap_nav{
+  display: flex;
+  margin-top: 15px;
+ 
+ 
+}
 
-.nav{
-  width: 100%;
+.nav_links{
+  width: 70%;
   background-color:#b8e1f254;
   box-sizing: border-box;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 15px;
   height: 40px;
+  font-size: 17px;
+}
+.nav_buttons{
+  width: 30%;
+  background-color:#b8e1f254;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 40px;
+  
+ 
+ 
 }
 
 .fas{
@@ -36,7 +54,6 @@ background-size: cover;
 
 a{
   color: #B8E1F2;
-  font-size: 23px;
   text-decoration: none;
   font-family: 'Special Elite', cursive;
 }
@@ -53,9 +70,10 @@ a:hover{
   border-radius: 25px;
   border: 2px solid #B8E1F2;
   font-family: 'Special Elite', cursive;
-  font-size: 18px;
+  font-size: 17px;
   color: #B8E1F2;
- 
+  margin: 5px;
+ margin-right: 15px;
 }
 
 .btn:hover{
@@ -87,11 +105,32 @@ a:hover{
   transition: ease-in-out 0.2s ;
 }
 
+.main_title{
+  font-family: 'Special Elite', cursive;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+   color: #30383B;
+  background-color:#b8e1f229;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+h1{
+font-size: 60px;
+
+}
+p{
+  font-size: 35px;
+  
+}
+
 .wrap_footer{
   width: 100%;
-  height: 520px;
+  height: 180px;
   display: flex;
   align-items: flex-end;
+  margin-bottom: 15px;
 }
 
 .footer{
@@ -117,4 +156,7 @@ a:hover{
   color: #B8E1F2;
   margin-left: 15px;
 font-family: 'Special Elite', cursive; 
+}
+.wrap_icons_footer{
+  margin-right: 15px;
 }
