@@ -15,9 +15,6 @@ background-size: cover;
 .wrap_nav{
   display: flex;
   margin-top: 15px;
- 
- 
- 
 }
 
 .nav_links{
@@ -39,9 +36,6 @@ background-size: cover;
   justify-content: end;
   align-items: center;
   height: 40px;
-  
- 
- 
 }
 
 .fas{
@@ -67,7 +61,7 @@ a:hover{
   transition: ease-in-out 0.2s ;
 }
 .btn{
-  background-color:#30383B;
+  background-color:#30383b7a;
   width: 100px;
   height: 40px;
   border-radius: 25px;
@@ -94,7 +88,7 @@ a:hover{
   display: flex;
   justify-content:center;
   align-items: center;
-  background-color: #b8e1f21a;
+   background-color: #b8e1f21a; 
 }
 
 .fab{
@@ -121,11 +115,10 @@ a:hover{
 
 h1{
 font-size: 60px;
-
 }
+
 p{
-  font-size: 35px;
-  
+  font-size: 35px; 
 }
 
 .wrap_footer{
@@ -143,7 +136,6 @@ p{
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  
 }
 
 .content_footer{
@@ -160,6 +152,7 @@ p{
   margin-left: 15px;
 font-family: 'Special Elite', cursive; 
 }
+
 .wrap_icons_footer{
   margin-right: 15px;
 }
