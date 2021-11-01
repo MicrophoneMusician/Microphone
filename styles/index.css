@@ -17,6 +17,7 @@ background-size: cover;
   margin-top: 15px;
  
  
+ 
 }
 
 .nav_links{
@@ -24,10 +25,11 @@ background-size: cover;
   background-color:#b8e1f254;
   box-sizing: border-box;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-between;
   align-items: center;
   height: 40px;
   font-size: 17px;
+  
 }
 .nav_buttons{
   width: 30%;
@@ -44,6 +46,7 @@ background-size: cover;
 
 .fas{
   color: #B8E1F2; 
+  margin-left: 15px;
 }
 
 .fas:hover{
