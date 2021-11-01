@@ -1,4 +1,3 @@
-
 body {
   max-width: 1400px;
   width: 100%;
@@ -9,164 +8,185 @@ body {
 .container{
 width: 100%;
 background-image: radial-gradient(#B8E1F2, #30383B);
-height: 710px;
-
-
+height: 630px;
 }
 
-.nav{
-  width: 100%;
-  background-color:#b8e1f254;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 15px;
-  height: 40px;
+.wrap_nav{
+display: flex;
+margin-top: 15px;
 }
 
-.fas{
-  color: #B8E1F2; 
-  font-size: 24px;
+.nav_links{
+width: 70%;
+background-color:#b8e1f254;
+box-sizing: border-box;
+display: flex;
+justify-content:space-between;
+align-items: center;
+height: 40px;
+font-size: 17px;
+
+}
+.nav_buttons{
+width: 30%;
+background-color:#b8e1f254;
+box-sizing: border-box;
+display: flex;
+justify-content: end;
+align-items: center;
+height: 40px;
 }
 
+.mic_nav{
+color: #B8E1F2; 
+margin-left: 15px; 
+}
 
-.fas:hover{
-  color: #30383B;
-  transform: scale(1.2);
-  transition: ease-in-out 0.2s ;
+.mic_nav:hover{
+color: #30383B;
+transform: scale(1.2);
+transition: ease-in-out 0.2s ;
 }
 
 a{
-  color: #B8E1F2;
-  font-size: 23px;
-  text-decoration: none;
-  font-family: 'Special Elite', cursive;
+color: #B8E1F2;
+text-decoration: none;
+font-family: 'Special Elite', cursive;
 }
 
 a:hover{
-  color: #30383B;
-  transform: scale(1.2);
-  transition: ease-in-out 0.2s ;
+color: #30383B;
+transform: scale(1.2);
+transition: ease-in-out 0.2s ;
+
 }
 .btn{
-  background-color:#30383B;
-  width: 100px;
-  height: 40px;
-  border-radius: 25px;
-  border: 2px solid #B8E1F2;
-  font-family: 'Special Elite', cursive;
-  font-size: 18px;
-  color: #B8E1F2;
- 
+background-color:#30383b7a;
+width: 100px;
+height: 40px;
+border-radius: 25px;
+border: 2px solid #B8E1F2;
+font-family: 'Special Elite', cursive;
+font-size: 17px;
+color: #B8E1F2;
+margin: 5px;
+margin-right: 15px;
 }
 
 .btn:hover{
-  cursor: pointer;
-  transition: ease-in-out 0.3s;
-  color: #4c4c4c;
-  background-color:#b8e1f254;
-  border: 1px solid #4c4c4c;
+cursor: pointer;
+transition: ease-in-out 0.3s;
+color: #4c4c4c;
+background-color:#b8e1f254;
+border: 1px solid #4c4c4c;
 }
 
 .icons{
-  width: 100%;
-  box-sizing: border-box;
-  height: 40px;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  background-color: #b8e1f21a;
-}
-.content_drummer{
-display: flex;
-
 width: 100%;
-
-
-justify-content: space-around;
-
-
-}
-.wrapper_content_drummer1{
-justify-content: start;
-width: 30%;
+box-sizing: border-box;
+height: 40px;
 display: flex;
-flex-direction: column;
+justify-content:center;
 align-items: center;
-
-}
-.wrapper_content_drummer2{
-width: 70%;
-}
-.fas{
-margin: 20px;
+ background-color: #b8e1f21a; 
 }
 
-h1{
-font-family: 'Special Elite', cursive; 
-color: #30383B;
-
-}
-img{
-width: 55%;
-
-align-items: center;
-
-}
-
-
-p{
-color: #30383B;
-font-family: 'Special Elite', cursive; 
-padding-right: 30px;
-margin-top: 70px;
-
-}
-
+.content_drummer{
+  display: flex;
+  
+  width: 100%;
+  
+  
+  justify-content: space-around;
+  
+  
+  }
+  .wrapper_content_drummer1{
+  justify-content: start;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
+  .wrapper_content_drummer2{
+  width: 70%;
+  }
+  .fas{
+  margin: 20px;
+  }
+  
+  h1{
+  font-family: 'Special Elite', cursive; 
+  color: #30383B;
+  
+  }
+  img{
+  width: 55%;
+  
+  align-items: center;
+  
+  }
+  
+  
+  p{
+  color: #30383B;
+  font-family: 'Special Elite', cursive; 
+  padding-right: 30px;
+  margin-top: 70px;
+  
+  }
 
 .fab{
-  margin: 15px;
-  color: #B8E1F2;
+font-size: 25px;
+margin: 15px;
+color: #B8E1F2;
 }
 
 .fab:hover{
-  color: #30383B;
-  transform: scale(1.2);
-  transition: ease-in-out 0.2s ;
+color: #30383B;
+transform: scale(1.2);
+transition: ease-in-out 0.2s ;
+
 }
 
+
+
 .wrap_footer{
-  width: 100%;
-  display: flex;
- align-items: flex-end;
+width: 100%;
+
+display: flex;
+margin-bottom: 15px;
 }
 
 .footer{
-  width: 100%;
-  background-color:#b8e1f254;
-  height: 40px;
-  display: flex;
-  margin-top: 40px;
-  
-
-  
-
+width: 100%;
+background-color:#b8e1f254;
+height: 40px;
+display: flex;
+align-items: center;
+box-sizing: border-box;
 }
 
 .content_footer{
- display: flex;
- align-items: center;
- justify-content: space-between;
- width: 100%;
-
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
 }
 
 .wrap_copyright{
-  width: 75%;
-  font-size: 13px;
-  color: #B8E1F2;
-  margin-left: 15px;
+width: 75%;
+font-size: 13px;
+color: #B8E1F2;
+margin-left: 15px;
 font-family: 'Special Elite', cursive; 
 }
+.mic_footer{
+  margin: 0;
+}
+
+
+
+
 
