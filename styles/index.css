@@ -89,15 +89,15 @@ justify-content: space-around;
 
 }
 .wrapper_content_drummer1{
-justify-content: center;
-width: 50%;
+justify-content: start;
+width: 30%;
 display: flex;
 flex-direction: column;
 align-items: center;
 
 }
 .wrapper_content_drummer2{
-width: 50%;
+width: 70%;
 }
 .fas{
 margin: 20px;
@@ -119,7 +119,8 @@ align-items: center;
 p{
 color: #30383B;
 font-family: 'Special Elite', cursive; 
-margin: 20px;
+padding-right: 30px;
+margin-top: 70px;
 
 }
 
