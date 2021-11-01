@@ -1,45 +1,51 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #aff6cf;
-    background-image: linear-gradient(315deg, #aff6cf 0%, #9f98e8 74%);
-}    
+@import url(//db.onlinewebfonts.com/c/7e8601c112331686d7e3e6b525d0793b?family=FF+Blur);
 
-.head-box {
-    border-image: linear-gradient(red, blue) 27;
-    background-color: white;
-    margin-top: 50px;
+
+@font-face {font-family: "FF Blur"; 
+    src: url("//db.onlinewebfonts.com/t/7e8601c112331686d7e3e6b525d0793b.eot"); 
+    src: url("//db.onlinewebfonts.com/t/7e8601c112331686d7e3e6b525d0793b.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/7e8601c112331686d7e3e6b525d0793b.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/7e8601c112331686d7e3e6b525d0793b.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/7e8601c112331686d7e3e6b525d0793b.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/7e8601c112331686d7e3e6b525d0793b.svg#FF Blur") format("svg"); }
+* {
+    font-family: 'FF Blur', Arial, sans-serif;
+}
+
+body {
+    background-image: url('images/carl-raw-m3hn2Kn5Bns-unsplash.jpg');
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.container {
     display: flex;
     width: 1400px;
-    height: 600px;
-    border: 5px solid;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-evenly;
+    height: auto;
+    background: rgba(204, 204, 204, 0.5);
     align-items: center;
-}
-.logo-box {
+    flex-direction: column;
+} 
+
+.section-4 {
+    width: 100%;
+    background-color: rgba(101, 214, 255, 0.8);
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .--navbar-- {
+    margin: 1.5rem;
     display: flex;
-    justify-content: space-between;
-    text-align: center;
-    background-color: white;
-    width: 700px;
-    height: 100px;
     align-items: center;
-}
-.logo {
-    height: 100px;
-}
-.text-box {
-    width: 1400px;
-    height: 500px;
-    border: 5px solid
+    justify-content: space-evenly;
+    width: 80%;
 }
 
 :root {
@@ -78,16 +84,258 @@ body {
     transform: translateX(0%);
 }
 
-.rect {
-    position: relative;
+.gallery-description {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    padding: 9px 15px;
+}
+.description {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    border: none;
+    background-color: none;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(101, 214, 255, 0.8);
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(238, 192, 198, 0.1);
+    background-image: linear-gradient(180deg, rgba(238, 192, 198, 0.1) 0%, #7ee8fa 74%);
+    width: 73%;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.row__images {
+    width: auto; height: 210px;
+    margin: 0.5rem;
+    padding: 0.25rem;
+
 }
 
-.overlay {
-    position: absolute;
-    float: left;
+.album {
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.album__images {
+    width: 210px; 
+    height: 210px;
+    margin: 0.5rem;
+}
+
+.button {
+    border: 2px solid #000;
+    border-radius: 0px;
+    background-color: #404a4e;
+    color: #000;
+    text-align: center; 
+    margin: 2rem;
+}
+.w-button {
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898EC;
+    border: 2.5px solid;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    object-fit: fill;
+}
+.submit-button {
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    background-color: #3898EC;
+    border: 2.5px solid;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn {
     
+    height: 20px;
+    width: 80px;
 }
 
-.check {
-    height: 100px;
+.button:hover {
+    background-color: transparent;
 }
+.btn:hover {
+    background-color: transparent;
+}
+
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blue {
+    width: 100%;
+    background-color: rgba(101, 214, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-form {
+    margin: 5rem;
+}
+h2 {
+    text-align: center;
+}
+.subscribe-form-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* placeholder="Email adress 
+img {
+    width: 200px;
+    height: 200px;;
+}
+*/
+
+.image-8 {
+    margin: 1.5rem;
+}
+.image-7 {
+    margin-bottom: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+.h-f-s {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .h-f-s:before {
+    pointer-events: none;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 0;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0) 80%);
+    /* W3C */
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+  }
+  .h-f-s:hover, .h-f-s:focus, .h-f-s:active {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    /* move the element up by 5px */
+  }
+  .h-f-s:hover:before, .h-f-s:focus:before, .h-f-s:active:before {
+    opacity: 1;
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+    /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+  }
+  
+
+
+
+
+
+
+
+
+.h-p-g {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+}
+.h-p-g:hover, .h-p-g:focus, .h-p-g:active {
+    -webkit-transform: scale(1.105);
+    transform: scale(1.105);
+}
+
+
+  @-webkit-keyframes h-p {
+    50% {
+      background-color: rgba(32, 152, 209, 0.25);
+    }
+  }
+  @keyframes h-p {
+    50% {
+      background-color: rgba(32, 152, 209, 0.25);
+    }
+  }
+  .h-p {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    overflow: hidden;
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-property: color, background-color;
+    transition-property: color, background-color;
+  }
+  .h-p:hover, .h-p:focus, .h-p:active {
+    -webkit-animation-name: h-p;
+    animation-name: h-p;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    background-color: #2098D1;
+    background-color: #2098d1;
+    color: black;
+  }
+  
