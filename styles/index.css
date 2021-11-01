@@ -92,6 +92,7 @@ a:hover{
 }
 
 .fab{
+  font-size: 25px;
   margin: 15px;
   color: #B8E1F2;
 }
@@ -100,6 +101,7 @@ a:hover{
   color: #30383B;
   transform: scale(1.2);
   transition: ease-in-out 0.2s ;
+  
 }
 
 .main_title{
@@ -154,6 +156,3 @@ p{
 font-family: 'Special Elite', cursive; 
 }
 
-.wrap_icons_footer{
-  margin-right: 15px;
-}
