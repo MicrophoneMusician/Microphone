@@ -1,14 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import '_news-colors';
 @import '_news-slider';
+@import '_news-news';
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-$font-family: 'Special Elite', cursive;
-$nav-color: #4c4c4c;
-$main-color: #30383B;
-$sign-btn-bc-hover: #b8e1f254;
+
 
 //nav page must be done by Jakop
 // Fixed the colors
