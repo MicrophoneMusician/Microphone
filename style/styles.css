@@ -6,6 +6,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Special Elite', cursive;
 }
 
 body {
@@ -64,7 +65,7 @@ transition: ease-in-out 0.2s ;
 
 a{
 color: #B8E1F2;
-font-size: 23px;
+font-size: 17px;
 text-decoration: none;
 font-family: 'Special Elite', cursive;
 }
@@ -105,12 +106,18 @@ height: 40px;
 display: flex;
 justify-content:center;
 align-items: center;
-background-color: #b8e1f21a;
+background-color:#b8e1f254;
 }
 .mic_nav {
   color: rgb(184, 225, 242);
   margin-left: 15px;
 }
+
+.mic {
+  color: black;
+}
+/*
+color: #B8E1F2; */
 
 .fab{
 margin: 15px;
@@ -186,6 +193,7 @@ transition: ease-in-out 0.2s ;
     background-color: #222;
     padding: 2px 16px;
     color: white;
+    font-size: 20px;
   }
   
   .row:after {
@@ -256,6 +264,13 @@ transition: ease-in-out 0.2s ;
   height: 210px;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.demo-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .white {
