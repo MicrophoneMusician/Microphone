@@ -1,45 +1,34 @@
-@import '_news-colors';
+@import '_news-fonts';
 
 .wrap_footer{
+    width: 100%;
+    height: 20%;
     display: flex;
     align-items: flex-end;
-    margin-top: 3%;
+    margin-bottom: 15px;
 
-    .footer{
-        width: 100%;
-        background-color: #999;
-        height: 60px;
-        display: flex;
-        align-items: center;
-        box-sizing: border-box;
+   .footer{
+       width: 100%;
+       background-color: #b8e1f254;
+       height: 40px;
+       display: flex;
+       align-items: center;
+    //    box-sizing: border-box; 
+    // I used it before
 
-        .content_footer{
-            display: flex;
-            align-items: center;
-            width: 100%;
+       .ontent_footer{
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           width: 100%;
 
-            .wrap_copyright{
-                width: 75%;
-                font-size: 13px;
-                color: #B8E1F2;
-                margin-left: 15px;
-            }
-        }
-        .wrap_icons{
-            max-width: 260px;
-            height: 100%;
-            margin-left: 5%;
-
-            a{
-                margin-left: 40px;
-                font-size: 1.2em;
-                color: #B8E1F2;
-                
-                &:hover{
-                    font-size: 1.8em;
-                }
-            }
-        }
-    }
+           .wrap_copyright{
+               width: 75%;
+               font-size: 13px;
+               color: #88e1f2;
+               margin-left: 15px;
+               font-family: $font-family;
+           }
+       }
+   }
 }
-
