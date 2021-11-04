@@ -1,11 +1,19 @@
-@import '_news-colors';
-h1{
-    font-size: 40px;
-    margin-left: 10%;
-    margin-top: 3%;
-    font-family: $font-family;
+@import '_news-fonts';
+main{
+    h1{
+        font-size: 40px;
+        margin-left: 5%;
+        margin-top: 3%;
+        font-family: $font-family-nosifer;
+    }
+    p{
+        margin-left: 13%;
+        font-size: 16px;
+        font-family: $font-family-fruktur;
+    }
 }
 .slider-img{
+    margin-top: 20px;
     display: flex;
     justify-content: center;
 
