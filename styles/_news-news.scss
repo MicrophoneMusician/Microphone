@@ -1,45 +1,37 @@
 @import '_news-fonts';
-.news-box{
-    max-width: 1200px;
-    width: 100%;
-    max-height: 240px;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 40px;
-
-}
-.h2{
-    font-family: $font-family-fruktur;
-    line-height: 24px;
-    font-size: 24px;
-    margin-top: 15px;
-    margin-left: 10px;
-}
-.p{
-    font-family: $font-family-poppins;
-    line-height: 24px;
-    font-size: 14px;
-    margin-top: 10px;
-    margin-left: 10px;
-}
 
 .news{
     margin-left: 4%;
+    margin-top: 4%;
     .img-news{
-        @extend .news-box;
+        max-width: 1200px;
+        width: 100%;
+        max-height: 220px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 40px;
 
         &:hover{
             padding: 10px;
             box-shadow: 5px 10px 8px 10px #888888;
         }
-
-        h2{
-            @extend .h2;
-        }
-        p{
-            @extend .p;
+        .text-box{
+            h2{
+                font-family: $font-family-fruktur;
+                line-height: 24px;
+                font-size: 24px;
+                margin-top: 15px;
+                margin-left: 10px;
+            }
+            p{
+                font-family: $font-family-poppins;
+                line-height: 24px;
+                font-size: 14px;
+                margin-top: 10px;
+                margin-left: 10px;
+            }
         }
     }
 }
