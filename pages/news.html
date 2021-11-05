@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microphone News</title>
+    <title>The Microphones News</title>
     <link rel="stylesheet" href="../styles/news.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://codepen.io/z-/pen/a8e37caf2a04602ea5815e5acedab458.js"></script>
     <script src="https://kit.fontawesome.com/62ec7cd660.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -31,38 +33,65 @@
         </div>    
     </nav>
     <main>
-        <h1>The M<i class="fas fa-microphone-alt"></i>crophone News</h1>
+        <h1>The M<i class="fas fa-microphone-alt"></i>crophones News</h1>
         <p>"Music and rhythm find their way to the hidden soul"</p>
         <section class="slider-img">
-            <div class="slider">
-                <div class="images">
-                    <input type="radio" name="slide" id="img1" checked>
-                    <input type="radio" name="slide" id="img2">
-                    <input type="radio" name="slide" id="img3">
-                    <input type="radio" name="slide" id="img4">
-                    <input type="radio" name="slide" id="img5">
-        
-                    <img src="../img/tarkan2.jpeg" alt="img1" class="m1">
-                    <img src="../img/George.jpg" alt="img2" class="m2">
-                    <img src="../img/Joakim.jpeg" alt="img3" class="m3">
-                    <img src="../img/kaki2.jpeg" alt="img4" class="m4">
-                    <img src="../img/Nicho 2.jpeg" alt="img5" class="m5">
+            <div class="options">
+                <div class="option active" style="--optionBackground:url(https://sadekadinlar.com/wp-content/uploads/2017/11/tarkan-kimdir-kim-nereli-kac-yasinda-1.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Tarkan Tevetoglu</div>
+                    </div>
                 </div>
-                <div class="dots">
-                    <label for="img1"></label>
-                    <label for="img2"></label>
-                    <label for="img3"></label>
-                    <label for="img4"></label>
-                    <label for="img5"></label>
+                </div>
+                <div class="option" style="--optionBackground:url(https://m.media-amazon.com/images/M/MV5BOWMwMDE1NDYtZWM3Yi00ZjljLTkxZTQtNjQzYWQzNTMzNWQwXkEyXkFqcGdeQXVyMTA3NjYyOTkw._V1_.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">George Clanton</div>
+                    </div>
+                </div>
+                </div>
+                <div class="option" style="--optionBackground:url(https://cdn.mos.cms.futurecdn.net/oCZfjcp83ZnUaKk72JbaYi-1200-80.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Joakim Brodén</div>
+                    </div>
+                </div>
+                </div>
+                <div class="option" style="--optionBackground:url(https://acousticlife.tv/wp-content/uploads/2018/04/KakiKing_ImageCreditMarlaAufmuth-1920x1280.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Kaki King</div>
+                    </div>
+                </div>
+                </div>
+                <div class="option" style="--optionBackground:url(https://i.ytimg.com/vi/7eczLQDjoeU/maxresdefault.jpg);">
+                <div class="shadow"></div>
+                <div class="label">
+                    <div class="info">
+                        <div class="main">Nicko Mcbrain</div>
+                    </div>
+                </div>
                 </div>
             </div>
+            <script>
+                $(".option").click(function(){
+                $(".option").removeClass("active");
+                $(this).addClass("active");
+                
+            });
+            </script>
         </section>
         <section class="news">
             <div class="img-news">
                 <a href="https://haberglobal.com.tr/magazin/tarkan-degil-tarzan-diyen-megastar-yeni-imajiyla-takipcilerini-sasirtti-137892">
-                    <img src="../img/tarkan.jpeg" alt="Tarkan Tevetoglu" width="300px" height="200px">
+                    <img src="https://zipirhaber.com/wp-content/uploads/2021/09/tarkandan-takdir-toplayan-hareket-YxdL1SKa.jpg" alt="Tarkan Tevetoglu" width="500px" height="200px">
                 </a>
-                <div>
+                <div class="text-box">
                     <h2>Megastar surprised his followers with his new image</h2>
                     <p>Coronavirus who said that it will not work until the epidemic is under control TarkanIn this process, 
                     he started to make new songs by living a quiet life. Singer, social media account in this processInstagramHe 
@@ -71,9 +100,9 @@
             </div>
             <div class="img-news">
                 <a href="https://www.spin.com/2021/10/george-clanton-new-single-negative-gemini/">
-                    <img src="../img/George2.jpeg" alt="George Clanton" width="300px" height="200px">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/George_Clanton.png" alt="George Clanton" width="500px" height="200px">
                 </a>
-                <div>
+                <div class="text-box">
                     <h2>George Clanton Unveils New Single, ‘Fucking Up My Life,’ With Negative Gemini</h2>
                     <p>Ahead of his headlining tour that kicks off tomorrow (October 8) in Brooklyn, vaporwave legend and 100% Electronica 
                     founder George Clanton has released a brand new single, “Fucking Up My Life.” The track from his long-awaited upcoming 
@@ -82,10 +111,10 @@
                 </div>
             </div>
             <div class="img-news">
-               <a href="https://loudwire.com/sabaton-reportedly-owe-hundreds-thousands-dollars-swedish-tax-agency/">
-                    <img src="../img/joakim2.jpeg.crdownload" alt="Joakim Broden" width="300px" height="200px">
+                <a href="https://loudwire.com/sabaton-reportedly-owe-hundreds-thousands-dollars-swedish-tax-agency/">
+                    <img src="https://media.gettyimages.com/photos/frontman-joakim-broden-of-swedish-power-metal-group-sabaton-live-on-picture-id495284637" alt="Joakim Broden" width="500px" height="200px">
                 </a>
-                <div>
+                <div class="text-box">
                     <h2>Sabaton Members Reportedly Owe Hundreds of Thousands of Dollars to Swedish Tax Agency</h2>
                     <p>Sabaton singer Joakim Brodén and bassist Pär Sundström reportedly owe hundreds of thousands of dollars to the Swedish Tax Agency 
                     following a discrepancy in their tax reporting concerning their income from tours in the United States from 2016 through 2018.</p>
@@ -93,9 +122,9 @@
             </div>
             <div class="img-news">
                 <a href="https://www.kingsplace.co.uk/whats-on/jazz/kaki-king/">
-                    <img src="../img/kaki.jpeg" alt="Kaki King" width="300px" height="200px">
+                    <img src="https://i.ytimg.com/vi/s0cBPS2PzI0/maxresdefault.jpg" alt="Kaki King" width="500px" height="200px">
                 </a>
-                <div>
+                <div class="text-box">
                     <h2>Considered one of the world’s greatest living guitarists, Brooklyn-based Kaki King brings her extraordinary AV projection-mapped show,</h2>
                     <p>In 2015 Kaki launched The Neck is a Bridge to the Body, a ground-breaking multimedia performance that used her guitar as projection 
                     screen to explore the genesis of the instrument and her relationship to it as well as her own origin story. The show toured 
@@ -103,10 +132,12 @@
                 </div>
             </div>
             <div class="img-news">
-                <a href="https://www.musicradar.com/news/iron-maiden--drummer-nicko-mcbrain-offered-to-quit-band-over-live-mistake">
-                    <img src="../img/Nicho.webp" alt="Nicho McBrain" width="300px" height="200px">
-                </a>
-                <div>
+                <div class="img-box">
+                    <a href="https://www.musicradar.com/news/iron-maiden--drummer-nicko-mcbrain-offered-to-quit-band-over-live-mistake">
+                        <img src="https://metalheadzone.com/wp-content/uploads/2019/10/iron-maiden-drummer-nicko-mcbrain-1200x675.jpg" alt="Nicho McBrain" width="500px" height="200px">
+                    </a>
+                </div>
+                <div class="text-box">
                     <h2>Iron Maiden's Nicko McBrain reveals that he offered to quit after a live mistake</h2>
                     <p>Iron Maiden drummer, Nicko McBrain has revealed that he was once so convinced that he would be fired from the band after missing 
                     a cue from vocalist Bruce Dickinson during a gig, that he offered to quit the band.</p>
@@ -114,14 +145,14 @@
             </div>
         </section>
     </main>
-
     <footer>
         <div class="wrap_footer">
             <div class="footer">
-                    <div class="content_footer">
-                        <div class="wrap_copyright"><i class="far fa-copyright"></i> 2021 The M<i class="mic_footer fas fa-microphone-alt">
-                        </i>crophones <i class="far fa-registered"></i> - All Rights Reserved</div>
-                    </div>
+                <div class="content_footer">
+                    <div class="wrap_copyright">
+                        <i class="far fa-copyright"></i> 2021 The M<i class="mic_footer fas fa-microphone-alt">
+                    </i>crophones <i class="far fa-registered"></i> - All Rights Reserved</div>
+                </div>
             </div>
         </div>
     </footer>
