@@ -35,3 +35,26 @@
         }
     }
 }
+@media screen and (max-width: 800px) {
+    .news{
+        margin-left: 2%;
+        margin-top: 2%;
+
+        .img-news{
+            max-height: 280px;
+            height: 100%;
+            width: 100%;
+            a{
+                display: none;
+            }
+        }
+        &:hover{
+            padding: 3px;
+            box-shadow: 2px 4px 3px 4px #888888;
+        }
+        .text-box{
+            line-height: 20px;
+            font-size: 16px;
+        }
+    }
+}
