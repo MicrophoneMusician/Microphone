@@ -153,6 +153,15 @@ main p {
   font-family: "Fruktur", cursive;
 }
 
+@media screen and (max-width: 800px) {
+  main h1 {
+    font-size: 24px;
+  }
+  main p {
+    font-size: 14px;
+  }
+}
+
 .slider-img {
   margin-top: 20px;
   display: -webkit-box;
@@ -344,11 +353,6 @@ main p {
   font-size: 1.2rem;
 }
 
-.slider-img .options .option .label .info .sub {
-  -webkit-transition-delay: .1s;
-          transition-delay: .1s;
-}
-
 .news {
   margin-left: 4%;
   margin-top: 4%;
@@ -389,6 +393,30 @@ main p {
   font-size: 14px;
   margin-top: 10px;
   margin-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .news {
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+  .news .img-news {
+    max-height: 280px;
+    height: 100%;
+    width: 100%;
+  }
+  .news .img-news a {
+    display: none;
+  }
+  .news:hover {
+    padding: 3px;
+    -webkit-box-shadow: 2px 4px 3px 4px #888888;
+            box-shadow: 2px 4px 3px 4px #888888;
+  }
+  .news .text-box {
+    line-height: 20px;
+    font-size: 16px;
+  }
 }
 
 .wrap_footer .footer {
