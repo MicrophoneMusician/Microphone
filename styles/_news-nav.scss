@@ -49,6 +49,7 @@ nav{
            display: flex;
            justify-content: end;
            align-items: center;
+           
 
            .btn{
                background-color: #30383b7a;
@@ -60,6 +61,7 @@ nav{
                color: #88e1f2;
                margin: 5px;
                margin-right: 15px;
+               font-family: $font-family;
 
                &:hover{
                    cursor: pointer;
