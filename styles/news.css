@@ -419,11 +419,10 @@ main p {
   }
 }
 
-.wrap_footer .footer {
-  margin-bottom: 15px;
+.content_footer {
   width: 100%;
-  background-color: #b8e1f254;
   height: 40px;
+  background-color: #b8e1f254;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -432,7 +431,7 @@ main p {
           align-items: center;
 }
 
-.wrap_footer .footer .ontent_footer .wrap_copyright {
+.content_footer .wrap_copyright {
   font-size: 13px;
   color: #88e1f2;
   margin-left: 15px;
