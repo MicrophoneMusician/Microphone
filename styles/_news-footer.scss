@@ -1,35 +1,18 @@
 @import '_news-fonts';
 
-.wrap_footer{
-    // width: 100%;
-    // height: 20%;
-    // display: flex;
-    // align-items: flex-end;
-    
+//Index page used more unnecessary class and codes
+.content_footer{
+    width: 100%;
+    height: 40px;
+    background-color: #b8e1f254;
+    display: flex;
+    align-items: center;
 
-   .footer{
-       margin-bottom: 15px;
-       width: 100%;
-       background-color: #b8e1f254;
-       height: 40px;
-       display: flex;
-       align-items: center;
-    //    box-sizing: border-box; 
-    // I used it before
+    .wrap_copyright{
+        font-size: 13px;
+        color: #88e1f2;
+        margin-left: 15px;
+        font-family: $font-family;
+    }
 
-       .ontent_footer{
-        //    display: flex;
-        //    align-items: center;
-        //    justify-content: space-between;
-        //    width: 100%;
-
-           .wrap_copyright{
-            //    width: 75%;
-               font-size: 13px;
-               color: #88e1f2;
-               margin-left: 15px;
-               font-family: $font-family;
-           }
-       }
-   }
 }
