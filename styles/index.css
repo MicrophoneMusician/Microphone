@@ -154,9 +154,10 @@ transition: ease-in-out 0.2s ;
 
 .wrap_footer{
 width: 100%;
-
+height: 160px;
+    align-items: flex-end;
 display: flex;
-margin-bottom: 15px;
+
 }
 
 .footer{
@@ -185,8 +186,5 @@ font-family: 'Special Elite', cursive;
 .mic_footer{
   margin: 0;
 }
-
-
-
 
 
