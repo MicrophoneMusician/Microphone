@@ -40,7 +40,10 @@ h1 {
 }
 
 body {
-  max-width: 1400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #4c4c4c;
   width: 100%;
   margin: auto;
@@ -174,6 +177,7 @@ a:hover{
 }
  
 .slide__container {
+  width: 97%;
   box-shadow: 6px 6px 6px rgb(0, 0, 0), 1em 0 .4em rgba(30, 184, 223, 0.212), -1em 0 .4em rgba(30, 184, 223, 0.212);
   margin-top: 1vw;
   margin-bottom: 1vw;
@@ -285,6 +289,7 @@ a:hover{
 }
 
 .grid-container {
+  width: 97%;
   box-shadow: 12px 12px 12px rgb(0, 0, 0), 1em 0 .4em rgba(104, 55, 161, 0.212), -1em 0 .4em rgba(104, 55, 161, 0.212);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -294,15 +299,20 @@ a:hover{
 }
 
 .grid-container > div {
-  height: 210px;
+  height: 25vh;
   background-size: cover;
   background-attachment: fixed;
 }
 
 .images {
-  height: 100px;
+  height: 14vh;
   width: 100%;
 }
+.images-tall {
+  height: 21vh;
+  width: 100%;
+}
+
 
 .demo-grid {
   display: flex;
