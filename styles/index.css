@@ -6,8 +6,8 @@ body {
   }
 .container{
 width: 100%;
+background-image: url("../img/music.jpg");   
 background-repeat: no-repeat;
-background-image: url("../img/music.jpg");  
 background-size: cover;
 }
 .wrap_nav{
