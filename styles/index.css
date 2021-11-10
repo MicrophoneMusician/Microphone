@@ -9,6 +9,7 @@ width: 100%;
 background-image: url("../img/music.jpg");   
 background-repeat: no-repeat;
 background-size: cover;
+
 }
 .wrap_nav{
   display: flex;
@@ -125,7 +126,7 @@ p{
 
 .wrap_footer{
   width: 100%;
-  height: 46vh;
+  height: 33vh;
   display: flex;
   align-items: flex-end;
   margin-bottom: 15px;
