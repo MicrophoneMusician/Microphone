@@ -106,12 +106,10 @@ h1{
 }
 .grid{
   display: grid;
-  width: 85%;
-  height: 600px;
-  grid-template-columns:1fr 1fr 1fr 1fr ;
+  width: 90%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 2fr 1fr 1fr 1fr;
   grid-gap: 4px;
-  margin-top: 20px;
 }
 
 .box1{
