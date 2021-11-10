@@ -1,10 +1,10 @@
 body {
-    max-width: 1400px;
     width: 100%;
     display: flex;
     justify-content: center;
     margin: auto;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
+   
   }
 
 .container{
