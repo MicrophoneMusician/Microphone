@@ -112,7 +112,6 @@ h1{
   margin-top: 20px;
 }
 
-
 .box1{
 grid-column: 1/2;
 grid-row: 1/2;
@@ -127,8 +126,8 @@ border-radius: 10px;
   grid-row: 1/2;
   background-image: url(/img/Nicko-McBrain-RadioHouse.jpg);
   background-size: cover;
-background-position: right;
-border-radius: 10px;
+  background-position: right;
+  border-radius: 10px;
 
 }
 .box3{
@@ -136,33 +135,33 @@ border-radius: 10px;
   grid-row: 1/2;
   background-image: url(/img/Nicko-McBrain.jpg);
   background-size: cover;
-background-position: right;
-border-radius: 10px;
+  background-position: right;
+  border-radius: 10px;
 }
 .box4{
   grid-column: 4/5;
   grid-row: 1/2;
   background-image: url(/img/nicko2.webp);
   background-size: cover;
-background-position: center;
-border-radius: 10px;
+  background-position: center;
+  border-radius: 10px;
 }
 
 .box5{
   grid-column: 2/3;
   grid-row: 2/4;
-background-image: url(/img/nicko1!.jpg);
-background-size: cover;
-background-position: center;
-border-radius: 10px;
+  background-image: url(/img/nicko1!.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
 }
 .box6{
   grid-column: 3/4;
   grid-row: 2/4;
   background-image: url(/img/nicko3.jpg);
   background-size: cover;
-background-position: center top;
-border-radius: 10px;
+  background-position: center top;
+  border-radius: 10px;
 }
 .box7{
   grid-column: 1/2;
@@ -180,7 +179,6 @@ border-radius: 10px;
   grid-column: 2/4;
   grid-row: 4/5;
   padding: 20px;
-  
   
 }
 .box1:hover{
@@ -216,8 +214,6 @@ border-radius: 10px;
   .fas{
   margin: 20px;
   }
-  
-
   
   p, li{
   color: #30383B;
@@ -275,3 +271,4 @@ font-family: 'Special Elite', cursive;
 .mic_footer{
   margin: 0;
 } 
+
