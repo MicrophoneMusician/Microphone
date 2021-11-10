@@ -256,6 +256,16 @@ a:hover {
     justify-content: space-evenly;
 }
 
+.icons-set {
+    width: 100%;
+    box-sizing: border-box;
+    height: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #b8e1f21a; 
+}
+
 :root {
     --dark-color: #635bff;
     --light-color: #80e9ff;
