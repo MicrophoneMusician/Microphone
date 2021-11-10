@@ -5,14 +5,13 @@
 }
 
 body {
-    max-width: 1400px;
+    
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
 }
 
 .container{
     width: 100%;
     background-repeat: no-repeat;
-    background-image: url("../img/music.jpg");  
     background-size: cover;
 }
 
